@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+    <body>
+        <style>
+        .text-blue{
+            color: #7bcfff;
+            display: block;
+            margin-top: 2px;
+            font-size: 14px;
+            font-weight: 800;
+        }
+    </style>
+    
+<link rel="stylesheet" href="sscnewform.css">
+    <div class="content">
+        <form name="submit-to-google-sheet">
+        <h2>Registration Form</h2>
+        <p class="p1">NOTE: Candidates must be cautious while filling up Registration details. Please fill the information correctly.</p>
+<table class="table" style="text-align: left;" width="1000">
+    <tr>
+        <td>Name</td>
+        <form action="output-page.php" method="POST">
+            <td><input type="text" name="Name" autofocus="on" required="">
+                          
+    </tr>
+    <tr>
+        <td>Father Name</td>
+        <form action="output-page.php" method="POST">
+            <td><input type="text" name="father name" required="">
+         
+                 
+    </tr>
+    <tr>
+        <td>Date of Birth (MM/DD/YYYY)</td>
+        <form action="output-page.php" method="POST">
+            <td><input type="date" name="Dateofbirth" required="">
+    
+    </tr>
+    <tr>
+        <td>
+        <label>Gender</label>
+        </td>
+        <td>
+            <span>
+                <form action="output-page.php" method="POST">
+                 <input id="Male" name="Gender" type="radio" value="Male" required="">
+                 <label>Male</label>
+            </span>
+            <span>
+                <form action="output-page.php" method="POST">
+                 <input id="Female" name="Gender" type="radio" value="Female" required="">
+                 <label>Female</label>
+            </span>
+            <span>
+                <form action="output-page.php" method="POST">
+                <input id="Transgender" name="Gender" type="radio" value="Transgender" required="">
+                <label>Transgender</label>
+           </span>
+        </td>
+           
+    </tr>
+    <tr>
+        <td>Level of Educational Qualification</td>
+        <form action="output-page.php" method="POST">
+                        <td><select required="" name="Qualification"><option value="">--Select--</option>
+                            <option value="Matriculation (10th)">Matriculation (10th)</option>
+                            <option value="Higher Secondary (10+2)">Higher Secondary (10+2)</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="Post Graduation">Post Graduation</option>
+                            <option value="Ph.D">Ph.D</option></select>
+                        </td>                
+    </tr>
+    <tr>
+        <td>Department</td><form action="output-page.php" method="POST">
+
+                    <td><input type="text" name="Department" required=""></td>
+                 
+    </tr>
+    
+
+    <tr>
+        <td>Year of Passing</td>
+
+                        <td><form action="output-page.php" method="POST"><select required="" name="Year of Passing"><option value="">--Select--</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                        </select>
+                        </td>                
+                   
+    </tr>
+    
+    
+    <tr>
+        <td>Current status</td>
+
+                        <td><form action="output-page.php" method="POST"><select required="" name="Current status"><option value="">--Select--</option>
+                            <option value="Working">Working</option>
+                            <option value="Unemployee">Unemployee</option>
+                            <option value="Student">Student</option>
+                            <option value="Homemaker">Homemaker</option>
+                            <option value="Business">Business</option>
+                        </td>                
+    </tr>
+    <tr>
+        <td>Company or college Name </td><form action="output-page.php" method="POST">
+
+                    <td><input type="text" name="Company name" required=""><span class="text-blue">Others please fill Nill</span></td>
+                 
+    </tr>
+    <tr>
+        <td>Company or college Location</td><form action="output-page.php" method="POST">
+
+                    <td><input type="text" name="Company Location" required=""><span class="text-blue">Others please fill Nill</span></td>
+                 
+    </tr>
+    <tr>
+        <td>Your Designation</td><form action="output-page.php" method="POST">
+
+                    <td><input type="text" name="Your Designation" required=""><span class="text-blue">Others please fill Nill</span></td>
+                 
+    </tr>
+    
+    
+    
+    <tr>
+        <td>Mobile Number</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="Mobile Number" required=""></td>
+                 
+    </tr>
+    <tr>
+        <td>Email ID</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="Email ID" required=""></td>
+                 
+    </tr>
+    <tr>
+        <td>country</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="country" required=""></td>                
+    </tr>
+    <tr>
+        <td>state</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="state" required=""></td>                
+    </tr>
+    <tr>
+        <td>District</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="District" required=""></td>                
+    </tr>
+    <tr>
+        <td>Area</td><form action="output-page.php" method="POST">
+
+        <td><input type="text" name="Area" required=""></td>                
+    </tr>
+
+</table>
+        <button type="submit" class="btn btn2">Submit</button>
+    </form>
+    <span id="msg">Click Submit button to complete your registration</span>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2n1p32wlhMXKfBfvIZ3DFgwaVlbET0vborKbYHbV0wlAd7O1r6EL57SW3-mFLYuE8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Registration Completed successfully" 
+        setTimeout(function(){
+        msg.innerHTML = ""},5000)
+    form.reset()}
+    )
+    .catch(error => console.error('Error!', error.message))
+})
+    </script>
+
+        
+</body>
+<footer class="footerparttop">
+    <div class="container">
+        <div class="row">
+            <div class="footerDiv">
+                <div class="col-sm-12 col-md-12 text-center">
+                    <div class="footerTitle">
+                        <h5 class="footwork1">VG software solution</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="cpyrighPart">
+    <div class="container">
+        <div class="row">
+            <div class="copyrightsSection">
+                <div class="col-sm-3">
+                    <div class="cpyrightTxt">
+                        <p>© 2023 BalakumarUI/UX designer. All Rights Reserved.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
